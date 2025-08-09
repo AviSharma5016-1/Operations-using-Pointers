@@ -1,6 +1,6 @@
 ***
 
-# **Pointers in C++ – README**
+# **Pointers in C++**
 
 ## **Aim**
 To understand and demonstrate:
