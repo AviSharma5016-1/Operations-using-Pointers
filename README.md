@@ -1,6 +1,6 @@
 ***
 
-# **Pointer operations in C++ **
+# **Pointers in C++ – README**
 
 ## **Aim**
 To understand and demonstrate:
@@ -73,8 +73,8 @@ int diff = p2 - p1;  // diff = 5 elements
 
 ***
 
-### **4. Backward Traversal of Arrays Using Pointers**
-You can start a pointer at the last array element and decrement it to traverse backward through the array.
+### **4. Backwards Traversal of Arrays Using Pointers**
+You can start a pointer at the last array element and decrement it to traverse backwards through the array.
 
 Example:
 ```cpp
@@ -88,7 +88,7 @@ while (p >= arr) {
 ***
 
 ### **5. Pointer with Strings (Character Arrays)**
-In C++, strings are arrays of characters ending with a null character (`'\0'`). Using pointers you can:
+In C++, strings are arrays of characters ending with a null character (`'\0'`). Using pointers, you can:
 - Traverse the string character by character.
 - Reverse the string by starting from the end and moving backwards to the beginning.
 
@@ -97,7 +97,7 @@ In C++, strings are arrays of characters ending with a null character (`'\0'`). 
 ## **Algorithms**
 
 **1. Pointer Arithmetic with Various Data Types**
-- Store address of a variable in a pointer.
+- Store the address of a variable in a pointer.
 - Increment pointer.
 - Observe how the address changes according to the size of the pointer's data type.
 
@@ -112,9 +112,9 @@ In C++, strings are arrays of characters ending with a null character (`'\0'`). 
 
 **4. String Reversal Using Pointers**
 - Input a string.
-- Traverse with pointer from start to end to print normally.
+- Traverse with a pointer from start to end to print normally.
 - Find string length, set pointer to last character.
-- Traverse backward to print characters in reverse.
+- Traverse backwards to print characters in reverse.
 
 ***
 
@@ -125,6 +125,6 @@ These programs demonstrate that pointers:
 - Enable reverse traversal of arrays smoothly.
 - Facilitate easy string handling and reversal by pointer manipulation.
 
-Mastering pointer arithmetic is essential in C++ to efficiently handle arrays, strings, and dynamic memory. Understanding memory addresses and pointer behavior enables deeper programming skills in system-level and performance-critical applications.
+Mastering pointer arithmetic is essential in C++ to efficiently handle arrays, strings, and dynamic memory. Understanding memory addresses and pointer behaviour enables deeper programming skills in system-level and performance-critical applications.
 
 ***
